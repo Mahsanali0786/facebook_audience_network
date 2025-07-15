@@ -25,6 +25,8 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace 'com.dsi.facebook_audience_network_example'
+    
     compileSdkVersion 28
 
     lintOptions {
